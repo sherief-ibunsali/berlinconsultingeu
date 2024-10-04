@@ -1,0 +1,179 @@
+Home
+├── Hero Section
+├── Client Testimonials
+├── Trust Badges & Certifications
+├── Services Overview
+└── Contact Information
+
+Migration Services
+├── Germany
+│   ├── Employment Sectors & Opportunities
+│   ├── Initial Consulting
+│   ├── Visa Types
+│   │   ├── Job Seeker Visa
+│   │   ├── Freelance Visa
+│   │   ├── Work Permit
+│   │   ├── EU Blue Card
+│   │   ├── Student Visa
+│   │   ├── Investment Visa
+│   │   └── Family Reunion Visa
+│   └── Migration Guide
+├── Portugal
+│   ├── Employment Sectors & Opportunities
+│   ├── Visa Types
+│   │   ├── Digital Nomad Visa
+│   │   ├── Work Permit
+│   │   ├── EU Blue Card
+│   │   ├── Student Visa
+│   │   ├── Investment Visa (Golden Visa)
+│   │   └── Family Reunion Visa
+│   └── Migration Guide
+└── Other Countries
+    ├── Singapore
+    ├── Canada
+    ├── Australia
+    └── New Zealand
+
+Schengen Visa
+├── Overview of Schengen Visa
+├── Schengen Countries
+│   ├── Austria
+│   ├── Belgium
+│   ├── Czech Republic
+│   ├── Denmark
+│   ├── Estonia
+│   ├── Finland
+│   ├── France
+│   ├── Germany
+│   ├── Greece
+│   ├── Hungary
+│   ├── Iceland
+│   ├── Italy
+│   ├── Latvia
+│   ├── Lithuania
+│   ├── Luxembourg
+│   ├── Malta
+│   ├── Netherlands
+│   ├── Norway
+│   ├── Poland
+│   ├── Portugal
+│   ├── Slovakia
+│   ├── Slovenia
+│   ├── Spain
+│   └── Sweden
+└── Visa Types
+    ├── Tourist Visa
+    ├── Business Visa
+    ├── Family or Friend Visit Visa
+    └── Medical Treatment Visa
+
+UK Visa Services
+├── Work Visas
+│   ├── Skilled Worker Visa
+│   ├── Health and Care Worker Visa
+│   ├── Intra-company Transfer Visa
+│   ├── Innovator Visa
+│   ├── Start-up Visa
+│   └── Global Talent Visa
+├── Business Visas
+│   ├── Investor Visa (Tier 1)
+│   └── Business Visitor Visa
+├── Study Visas
+│   ├── Student Visa (Tier 4)
+│   └── Short-term Study Visa
+├── Family Visas
+│   ├── Spouse or Partner Visa
+│   ├── Family Reunion Visa
+│   └── Child Visa
+├── Visit Visas
+│   ├── Standard Visitor Visa
+│   ├── Marriage Visitor Visa
+│   └── Transit Visa
+└── Permanent Residence and Settlement
+    ├── Indefinite Leave to Remain (ILR)
+    └── British Citizenship
+
+USA Visa Services
+├── Work Visas
+│   ├── H-1B Visa
+│   ├── L-1 Visa
+│   ├── E-2 Visa
+│   ├── O-1 Visa
+│   └── TN Visa
+├── Business Visas
+│   ├── B-1 Visa
+│   ├── E-1 Treaty Trader Visa
+│   └── EB-5 Investor Visa
+├── Study Visas
+│   ├── F-1 Visa
+│   ├── J-1 Visa
+│   └── M-1 Visa
+├── Family Visas
+│   ├── K-1 Fiancé(e) Visa
+│   └── CR1/IR1 Spouse Visa
+├── Visit Visas
+│   ├── B-2 Tourist Visa
+│   └── Transit Visa
+└── Green Card Visas
+    ├── Family-sponsored Green Card
+    └── Employment-based Green Card
+
+Business Registration
+├── Germany
+│   ├── Types of Companies
+│   │   ├── GmbH (Limited Liability Company)
+│   │   ├── UG (Entrepreneurial Company)
+│   │   ├── AG (Public Limited Company)
+│   │   ├── GbR (Civil Law Partnership)
+│   │   ├── OHG (General Partnership)
+│   │   ├── KG (Limited Partnership)
+│   │   └── **Sole Proprietorship**
+│   ├── Company Registration Process
+│   ├── Tax Registration
+│   ├── VAT Registration
+│   ├── Social Security Registration
+│   ├── Virtual Office Setup
+│   └── Hiring Foreign Employees
+├── Portugal
+│   ├── Types of Companies
+│   │   ├── LDA (Private Limited Company)
+│   │   ├── SA (Public Limited Company)
+│   │   └── Sole Proprietorship
+│   ├── Company Registration Process
+│   ├── NIF (Tax Identification Number) Registration
+│   ├── Tax and VAT Registration
+│   ├── Social Security Registration
+│   ├── Virtual Office Setup
+│   └── Hiring Foreign Employees
+├── UK
+│   ├── Types of Companies
+│   │   ├── Sole Trader
+│   │   ├── Private Limited Company (Ltd)
+│   │   ├── Public Limited Company (PLC)
+│   │   └── Limited Liability Partnership (LLP)
+│   └── Business Registration Process
+└── USA
+    ├── Types of Companies
+    │   ├── Sole Proprietorship
+    │   ├── LLC (Limited Liability Company)
+    │   ├── Corporation (C-Corp, S-Corp)
+    │   └── Partnerships (General, Limited)
+    ├── Business Registration Process
+    ├── Tax Registration
+    └── Virtual Office Setup
+
+Blog
+├── Migration Tips
+├── Visa Updates
+├── Business Registration Insights
+└── Tax and Legal Advice
+
+About Us
+├── Company Overview
+├── Our Team
+└── Vision and Mission
+
+Contact Us
+├── Consultation Booking Form
+├── Office Locations
+└── FAQ Section

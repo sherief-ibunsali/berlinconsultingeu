@@ -1,101 +1,132 @@
-import Image from "next/image";
+// pages/index.js
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="bg-gray-100">
+      {/* Hero Section */}
+      <section className="relative bg-white">
+        <div className="container mx-auto py-16 px-6 lg:py-24 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">Berlin Consulting Services</h1>
+            <p className="mt-4 text-lg text-gray-600">Your trusted partner for migration, visa, and business registration solutions.</p>
+            <div className="mt-8">
+              <Link href="/contact" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                Get in Touch
+              </Link>
+            </div>
+          </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <div className="mt-12">
             <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/images/01-iMac-alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg"
+              alt="Berlin city view"
+              width={1200}
+              height={600}
+              className="w-full h-auto object-cover"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Services Overview */}
+      <section className="bg-gray-100 py-16" >
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-semibold text-gray-900 text-center mb-8">Our Services</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <h3 className="text-xl font-bold text-gray-800">Business Registration</h3>
+              <p className="mt-4 text-gray-600">Helping entrepreneurs set up businesses in various countries.</p>
+              <Link href="/business-registration" className="mt-4 inline-block text-blue-600 hover:text-blue-800">
+                Learn More
+              </Link>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <h3 className="text-xl font-bold text-gray-800">Migration Assistance</h3>
+              <p className="mt-4 text-gray-600">Comprehensive migration consulting for Australia, Canada, Europe, New Zealand, UK, USA </p>
+              <Link href="/migration-services" className="mt-4 inline-block text-blue-600 hover:text-blue-800">
+                Learn More
+              </Link>
+            </div>
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <h3 className="text-xl font-bold text-gray-800">Visit (Business & Tourism) Visa</h3>
+              <p className="mt-4 text-gray-600">Assisting with Australia, Canada, New Zealand Schengen (Europe), UK, USA Visit visa.</p>
+              <Link href="/visa-services" className="mt-4 inline-block text-blue-600 hover:text-blue-800">
+                Learn More
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Client Testimonials */}
+      <section className="bg-gray-200 py-16" >
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-semibold text-gray-900 text-center mb-8">What Our Clients Say</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Testimonial 1 */}
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <div className="flex justify-center">
+                <div className="w-16 h-16 rounded-full bg-gray-200">
+                  <Image src="https://picsum.photos/200/300" alt="John Doe" height={100} width={100} className="w-16 h-16 rounded-full mx-auto" />
+                </div>
+                <p className="text-gray-700">&quot;Berlin Consulting made my migration process to Germany seamless and stress-free!&quot;</p>
+              </div>
+              <p className="mt-4 text-sm font-semibold text-gray-900">- John Doe</p>
+            </div>
+            {/* Testimonial 2 */}
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <p className="text-gray-700">"Professional and trustworthy services for visa and business registration."</p>
+              <p className="mt-4 text-sm font-semibold text-gray-900">- Jane Smith</p>
+            </div>
+            {/* Testimonial 3 */}
+            <div className="p-6 bg-white shadow-lg rounded-lg">
+              <p className="text-gray-700">"Highly recommended for anyone looking to move to Europe!"</p>
+              <p className="mt-4 text-sm font-semibold text-gray-900">- Carlos Gonzales</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Badges & Certifications */}
+      <section className="bg-white py-16" >
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-semibold text-gray-900 text-center mb-8">Trusted & Certified</h2>
+          <div className="flex justify-center space-x-4">
+            <Image
+              src="https://picsum.photos/200/300"
+              alt="Certificate 1"
+              width={100}
+              height={100}
+            />
+            <Image
+              src="https://picsum.photos/200/300"
+              alt="Certificate 2"
+              width={100}
+              height={100}
+            />
+            <Image
+              src="https://picsum.photos/200/300"
+              alt="Certificate 3"
+              width={100}
+              height={100}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Information */}
+      <section className="bg-white py-16" >
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-3xl font-semibold text-gray-900 mb-8">Contact Us</h2>
+          <p className="text-lg text-gray-700">Have any questions? Reach out to us via email or phone!</p>
+          <div className="mt-8">
+            <Link href="/contact" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+              Contact Us
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
