@@ -25,7 +25,7 @@ export default function Germany() {
             </ul>
             <h4 className="text-xl font-semibold mb-2">Advantages:</h4>
             <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
-                <li>Limited liability for shareholders (liability is limited to the company's assets).</li>
+                <li>Limited liability for shareholders (liability is limited to the company&apos;s assets).</li>
                 <li>Strong corporate structure suitable for small to medium-sized businesses.</li>
                 <li>Good reputation and trust in the German market.</li>
             </ul>
@@ -38,11 +38,11 @@ export default function Germany() {
             {/* UG - Unternehmergesellschaft (Mini-GmbH) */}
             <h3 className="text-2xl font-semibold mb-3">2. UG (Unternehmergesellschaft or Mini-GmbH)</h3>
             <p className="text-lg text-gray-700 mb-2">
-                The UG is a variation of the GmbH with lower capital requirements, often referred to as the "Mini-GmbH."
+                The UG is a variation of the GmbH with lower capital requirements, often referred to as the &quot;Mini-GmbH.&quot;
             </p>
             <h4 className="text-xl font-semibold mb-2">Requirements:</h4>
             <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
-                <li>Minimum share capital of €1 (though it's advisable to have more).</li>
+                <li>Minimum share capital of €1 (though it&apos;s advisable to have more).</li>
                 <li>At least one shareholder (can be an individual or legal entity).</li>
                 <li>Profits must be retained until the minimum capital of €25,000 is reached (to convert to a GmbH).</li>
                 <li>Company must be registered at the commercial register (Handelsregister).</li>
@@ -112,7 +112,7 @@ export default function Germany() {
             {/* Conclusion */}
             <h2 className="text-3xl font-semibold mb-4">Conclusion</h2>
             <p className="text-lg text-gray-700">
-                Germany offers various types of company structures that cater to different business needs. Whether you are a small business owner looking for a simple setup, or a large enterprise planning to go public, there is a suitable option for you. It's essential to carefully consider the requirements, advantages, and disadvantages of each type before making your decision.
+                Germany offers various types of company structures that cater to different business needs. Whether you are a small business owner looking for a simple setup, or a large enterprise planning to go public, there is a suitable option for you. It&apos;s essential to carefully consider the requirements, advantages, and disadvantages of each type before making your decision.
             </p>
         </div>
     );

@@ -165,7 +165,7 @@ export default function NavBar() {
                                     </Link>
                                 </div>
                             )}
-                            <Link href="/blog" className={`${linkStyle("/blog")} py-1 px-3 rounded`}>
+                            <Link href="/blog" className={`${linkStyle("/blog")} py-2 px-4 rounded`}>
                                 Blog
                             </Link>
                             <Link href="/contact" className={`${linkStyle("/contact-us")} py-2 px-4 rounded`} onClick={toggleMenu}>

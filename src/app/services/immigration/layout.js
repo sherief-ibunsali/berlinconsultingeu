@@ -10,10 +10,10 @@ export default function BusinessRegistrationLayout({ children }) {
 
   // Define the paths to be used in navigation
   const links = [
-    { name: "Germany", path: "/services/business-registration/germany" },
-    { name: "Portugal", path: "/services/business-registration/portugal" },
-    { name: "United Kingdom", path: "/services/business-registration/uk" },
-    { name: "United States", path: "/services/business-registration/us" },
+    { name: "Germany", path: "/services/immigration/germany" },
+    { name: "Portugal", path: "/services/immigration/portugal" },
+    { name: "United Kingdom", path: "/services/immigration/uk" },
+    { name: "United States", path: "/services/immigration/us" },
   ];
 
   return (
@@ -56,7 +56,7 @@ export default function BusinessRegistrationLayout({ children }) {
       {/* Main Content */}
       <div className="md:w-3/4">
         <h1 className="text-3xl font-bold mb-8">
-          Business Registration Services
+          Immigration Services
         </h1>
         {children}
       </div>
